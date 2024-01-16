@@ -28,19 +28,19 @@ const menus = [
 const socials = [
     {
         icon: 'fa fa-facebook text-[blue]',
-        link: process.env.REACT_APP_FACEBOOK_URL
+        link: ''
     },
     {
         icon: 'fa fa-instagram text-[#E1306C]',
-        link: process.env.REACT_APP_INSTAGRAM_URL
+        link: ''
     },
     {
         icon: 'fa fa-twitter text-[blue]',
-        link: process.env.REACT_APP_TWITTER_URL
+        link: ''
     },
     {
         icon: 'fa fa-linkedin text-[darkblue]',
-        link: process.env.REACT_APP_LINKEDIN_URL
+        link: ''
     }
 ]
 
@@ -158,11 +158,11 @@ const teachings = [
                     <div className="py-2">
                         <h1 className="text-lg font-bold py-4">Contact</h1>
                         <div>
-                            <span>Toll free:</span><span>{process.env.REACT_APP_SUPPORT_NUMBER}</span>
+                            <span>Toll free:</span><span>+123456789</span>
                         </div>
                             <span>(9:AM to 8:PM PKT)</span>
                         <div>
-                            <span className="fon-semibold">{process.env.REACT_APP_SUPPORT_EMAIL}</span>
+                            <span className="fon-semibold">Email: kaleemullah@gmail.com</span>
                         </div>
                     </div>
                 </div>
