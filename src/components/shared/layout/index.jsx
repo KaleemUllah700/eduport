@@ -28,19 +28,19 @@ const menus = [
 const socials = [
     {
         icon: 'fa fa-facebook text-[blue]',
-        link: 'https//:fb.com'
+        link: process.env.REACT_APP_FACEBOOK_UR
     },
     {
         icon: 'fa fa-instagram text-[#E1306C]',
-        link: 'https//:instagram.com'
+        link: process.env.REACT_APP_INSTAGRAM_URL
     },
     {
         icon: 'fa fa-twitter text-[blue]',
-        link: 'https//:twitter.com'
+        link: process.env.REACT_APP_TWITTER_URL
     },
     {
         icon: 'fa fa-linkedin text-[darkblue]',
-        link: 'https//:linkedin.com'
+        link: process.env.REACT_APP_LINKEDIN_URL
     }
 ]
 
@@ -94,10 +94,10 @@ const teachings = [
                     <img src="/images/avatar.jpg" alt="avatar" className="w-[60px] rounded-full" />
                 </button>
             </nav>
-            <section>
+            <section className="p-16"> 
                 {children}
             </section>
-            <footer>
+            <footer className="mx-6">
                 <div className="grid grid-cols-5 py-5">
                     <div className="bg-white p-[10%] mr-4flex justify-center items-center gap-4">
                         <Logo tagline className="py-[5%]" />
@@ -158,11 +158,11 @@ const teachings = [
                     <div className="py-2">
                         <h1 className="text-lg font-bold py-4">Contact</h1>
                         <div>
-                            <span>Toll free:</span><span>+123456789</span>
+                            <span>Toll free:</span><span>{process.env.REACT_APP_SUPPORT_NUMBER}</span>
                         </div>
                             <span>(9:AM to 8:PM PKT)</span>
                         <div>
-                            <span className="fon-semibold">Email: kaleem@gmail.com</span>
+                            <span className="fon-semibold">{process.env.REACT_APP_SUPPORT_EMAIL}</span>
                         </div>
                     </div>
                 </div>
