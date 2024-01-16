@@ -27,22 +27,7 @@ const menus = [
 
 const socials = [
     {
-        icon: 'fa fa-facebook text-[blue]',
-<<<<<<< HEAD
-        link: ''
-    },
-    {
-        icon: 'fa fa-instagram text-[#E1306C]',
-        link: ''
-    },
-    {
-        icon: 'fa fa-twitter text-[blue]',
-        link: ''
-    },
-    {
         icon: 'fa fa-linkedin text-[darkblue]',
-        link: ''
-=======
         link: process.env.REACT_APP_FACEBOOK_UR
     },
     {
@@ -56,7 +41,6 @@ const socials = [
     {
         icon: 'fa fa-linkedin text-[darkblue]',
         link: process.env.REACT_APP_LINKEDIN_URL
->>>>>>> staging
     }
 ]
 
@@ -178,11 +162,8 @@ const teachings = [
                         </div>
                             <span>(9:AM to 8:PM PKT)</span>
                         <div>
-<<<<<<< HEAD
                             <span className="fon-semibold">Email: kaleemullah@gmail.com</span>
-=======
                             <span className="fon-semibold">{process.env.REACT_APP_SUPPORT_EMAIL}</span>
->>>>>>> staging
                         </div>
                     </div>
                 </div>
