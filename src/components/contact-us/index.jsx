@@ -1,12 +1,12 @@
 import Layout from '../shared/layout'
-
 const ContactUs = ()=>{
     return (
         <Layout>
             <div>
-                <h1>contact</h1>
+                <h1>i am contact us</h1>
             </div>
         </Layout>
     )
 }
-export default ContactUs;
+
+export default ContactUs

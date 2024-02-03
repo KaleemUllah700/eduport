@@ -1,11 +1,12 @@
 import Layout from '../shared/layout'
 const Homepage = ()=>{
     return (
-        <div>
-            <Layout>
-                <h1>i am Homepage</h1>    
-            </Layout>    
-        </div>
+        <Layout>
+            <div>
+                <h1>i am homepage</h1>
+            </div>
+        </Layout>
     )
 }
+
 export default Homepage
