@@ -183,8 +183,6 @@ const modal = [
         lecture: '15 lectures',
         catagory: 'marketing'
     }
-
-
 ]
 const [data, setData] = useState(modal)
 
@@ -194,7 +192,6 @@ const onTab = (catagory)=>{
     const filtered= modal.filter((item, index)=>item.catagory === catagory)
     setData(filtered)
 }
-
 
     return (
         <div className="flex flex-col gap-4">
@@ -242,7 +239,6 @@ const onTab = (catagory)=>{
                         </div>
                     ))
                 }
-
             </div>
         </div>
     )
