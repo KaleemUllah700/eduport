@@ -26,7 +26,7 @@ const analytics = [
     }
 ]
     return (
-        <div className="grid grid-cols-4 py-8 gap-4">
+        <div className="grid md:grid-cols-4 py-8 gap-4">
             {
                 analytics.map((analytic, index)=>(
                     <div className="flex justify-center">

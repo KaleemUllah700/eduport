@@ -195,9 +195,9 @@ const onTab = (catagory)=>{
 
     return (
         <div className="flex flex-col gap-4">
-            <h1 className="text-[40px] font-semibold text-center">Most Popular Courses</h1>
-            <p className="text-lg text-center">Choose from hundreds of courses from specialist organizations</p>
-            <div className="w-[100%] h-[70px] bg-[#CEF9DD] rounded-lg flex items-center justify-center gap-12">
+            <h1 className="md:text-[40px] text-[30px] font-semibold text-center">Most Popular Courses</h1>
+            <p className="md:text-lg text-sm text-center">Choose from hundreds of courses from specialist organizations</p>
+            <div className="w-[100%] min-h-[70px] bg-[#CEF9DD] rounded-lg flex md:flex-row flex-col items-center justify-center md:gap-12 gap-4">
                 {
                     [...menus].map((menu, index)=>(
                         <Button key={index} variant="solid" size="small" onClick={()=>onTab(menu)}>
@@ -206,10 +206,10 @@ const onTab = (catagory)=>{
                     ))
                 }
             </div>
-            <div className="grid grid-cols-4">
+            <div className="grid md:grid-cols-4">
                 {
                     data.map((item, index)=>(
-                        <div key={index} className="flex flex-col p-4 rounded-lg">
+                        <div key={index} className="flex flex-col p-4 rounded-lg md:min-h-[420px] shadow">
                             <img src={item.thumbnail} alt="thumbnail1" className="rounded-lg" />
                             <div className="flex flex-col gap-2 p-2">
                                 <h1 className="text-xl font-semibold">{item.title}</h1>
