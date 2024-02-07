@@ -98,10 +98,10 @@ const teachings = [
                 {children}
             </section>
             <footer className="px-4">
-                <div className="grid grid-cols-5 py-5">
+                <div className="grid md:grid-cols-5 py-5">
                     <div className="bg-[white] p-[10%] flex flex-col justify-center items-center gap-4">
                         <Logo tagline className="py-[5%]" />
-                        <div>
+                        <div className="">
                             <ul>
                                 {
                                     socials.map((social,index)=>(
