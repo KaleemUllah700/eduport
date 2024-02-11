@@ -4,25 +4,25 @@ const data = [
         thumbnail: 'images/trendingcourse1.jpg',
         title: 'Time Management Mastery: Do More, Stress Less',
         duaration: '12h 45m',
-        lecture: '21 lecture'
+        lecture: '21 lectures'
     },
     {
-        thumbnail: 'images/trendingcourse1.jpg',
-        title: 'Time Management Mastery: Do More, Stress Less',
-        duaration: '12h 45m',
-        lecture: '21 lecture'
+        thumbnail: 'images/trendingcourse2.jpg',
+        title: 'The complete Digital Marketing Course',
+        duaration: '20h 45m',
+        lecture: '40 lectures'
     },
     {
-        thumbnail: 'images/trendingcourse1.jpg',
-        title: 'Time Management Mastery: Do More, Stress Less',
-        duaration: '12h 45m',
-        lecture: '21 lecture'
+        thumbnail: 'images/trendingcourse3.jpg',
+        title: 'The complete Angular Course for Beginners',
+        duaration: '10h 45m',
+        lecture: '10 lectures'
     },
     {
-        thumbnail: 'images/trendingcourse1.jpg',
-        title: 'Time Management Mastery: Do More, Stress Less',
-        duaration: '12h 45m',
-        lecture: '21 lecture'
+        thumbnail: 'images/trendingcourse4.jpg',
+        title: 'The complete Python Course for Beginners',
+        duaration: '17h 45m',
+        lecture: '24 lectures'
     }
 ]
     return (
