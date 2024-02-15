@@ -26,7 +26,9 @@ const data = [
     }
 ]
     return (
-        <div className="grid md:grid-cols-3 w-full min-h-[400px] bg-[white] flex md:gap-2 gap-8">
+        <div>
+            <h1 className="md:text-[40px] text-[30px] text-center font-semibold pb-8">Our Trending Courses</h1>
+            <div className="grid md:grid-cols-3 w-full min-h-[400px] bg-[white] flex md:gap-2 gap-8">
             {
                 data.map((item, index)=>(
                         <div className="flex flex-col justify-center items-center rounded-lg shadow" key={index}>
@@ -47,6 +49,7 @@ const data = [
                         </div>
                 ))
             }
+            </div>
         </div>
     )
 }
