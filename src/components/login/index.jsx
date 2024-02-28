@@ -3,7 +3,7 @@ const Login = ()=>{
     return (
         <Layout>
             <div className='w-full min-h-screen bg-[white] flex flex-col items-center justify-center'>
-                <div className='w-[400px] h-[300px] bg-[lightgrey] rounded-lg'>
+                <div className='w-[400px] h-[300px] bg-[#F1F1F1] rounded-lg'>
                     <h1 className='text-center text-xl font-semibold pt-2'>Login Now</h1>
                     <form className='flex flex-col gap-6'>
                         <div className='mx-2'>
