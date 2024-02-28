@@ -94,14 +94,14 @@ const teachings = [
                     <img src="/images/avatar.jpg" alt="avatar" className="w-[60px] rounded-full" />
                 </button>
             </nav>
-            <section className="p-16"> 
+            <section className="px-8">
                 {children}
             </section>
-            <footer className="mx-6">
-                <div className="grid grid-cols-5 py-5">
-                    <div className="bg-white p-[10%] mr-4flex justify-center items-center gap-4">
+            <footer className="px-4">
+                <div className="grid md:grid-cols-5 py-5">
+                    <div className="bg-[white] p-[10%] flex flex-col justify-center items-center gap-4">
                         <Logo tagline className="py-[5%]" />
-                        <div>
+                        <div className="">
                             <ul>
                                 {
                                     socials.map((social,index)=>(
@@ -113,7 +113,7 @@ const teachings = [
                             </ul>
                         </div>
                     </div>
-                    <div>
+                    <div className="bg-[white] px-4">
                         <h1 className="text-lg font-bold py-4">Company</h1>
                         <div>
                             <ul>
@@ -127,7 +127,7 @@ const teachings = [
                             </ul>
                         </div>
                     </div>
-                    <div>
+                    <div className="bg-[white] px-4">
                         <h1 className="text-lg font-bold py-4">Community</h1>
                         <div>
                             <ul>
@@ -141,7 +141,7 @@ const teachings = [
                             </ul>
                         </div>
                     </div>
-                    <div>
+                    <div className="bg-[white] px-4">
                         <h1 className="text-lg font-bold py-4">Teaching</h1>
                         <div>
                             <ul>
@@ -155,7 +155,7 @@ const teachings = [
                             </ul>
                         </div>
                     </div>
-                    <div className="py-2">
+                    <div className="bg-[white] px-4">
                         <h1 className="text-lg font-bold py-4">Contact</h1>
                         <div>
                             <span>Toll free:</span><span>{process.env.REACT_APP_SUPPORT_NUMBER}</span>

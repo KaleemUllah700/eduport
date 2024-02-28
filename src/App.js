@@ -6,6 +6,7 @@ import Faculty from './components/faculty'
 import ContactUs from './components/contact-us'
 import Login from './components/login'
 import NotFound from './components/not-found'
+import AdminLayout from "./components/shared/admin-layout"
 const App = ()=>{
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const App = ()=>{
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/login' element={<Login />} />
         <Route path='*' element={<NotFound />} />
+        <Route path="/adminlayout" element={<AdminLayout />} />
       </Routes>
     </BrowserRouter>
   )
